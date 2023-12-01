@@ -1,7 +1,4 @@
-#serieux{
-  align-items: center;
-}
-
-#fun{
-  align-items: center;
+div {
+  display: flex;
+  justify-content: center;
 }
