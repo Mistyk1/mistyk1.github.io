@@ -2,18 +2,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
-
-    <!-- 
-      TODO
-
-      Upload your Unemployable (or whatever photo you like) to the assets/images folder
-      and change the name of the image below to match the uploaded one
-
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
-
-      This should be the same across all pages.
-     -->
-		<title>Maxime Blot</title>
+		<title>Projets</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel="stylesheet" href="./css/layout.css">
@@ -21,7 +10,6 @@
     <link rel="stylesheet" href="./css/utilities.css">
 	</head>
 	<body>
-    <!-- NAVBAR -->
     <div class="navbar">
       <a class="nav-title-link" href="./index.html"><span class="nav-title">Maxime Blot</span></a>
       <a class="nav-title-link" href="./formations.html"><span class="nav-subtitle">Formations</span></a>
@@ -33,67 +21,80 @@
       </a>
     </div>
 
-    <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
 
-      <!-- PROJECTS / MY WORK SECTION -->
       <div id="my-work-section">
-        <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
-        <span class="subheader-text">My Work / My Projects</span>
+        <span class="subheader-text">Mes projets</span>
 
         <div class="projects-container">
-          <!-- 
-            TODO
-
-            This is where the project cards live. Here's a base level project card for you to copy:
-            <div class="project-card">
-              <img src="./assets/images/IMAGE_NAME" class="project-image">
-              <div class="project-card-text-container">
-                <div class="subheader-text project-title">PROJECT_NAME</div>
-                <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
-              </div>
-              <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
-                <span class="button-text">Read More</span>
-                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-              </a>
-            </div>
-
-            - To add a project to the this area, copy the above, paste it below this comment, and change the following:
-                - IMAGE_NAME: the name of the image file in assets/images
-                - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
-                - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
-                - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
-          -->
           <div class="project-card">
-            <img src="./assets/images/desktop.jpeg" class="project-image">
+            <img src="./assets/images/gameOfLife.png" class="project-image">
             <div class="project-card-text-container">
-              <div class="subheader-text project-title">Project Name</div>
-              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+              <div class="subheader-text project-title">Jeux de la Vie</div>
+              <div class="body-text project-card-text">Plusieurs recréation du Jeu de la Vie de Conway en Python et en Java</div>
             </div>
-            <a class="button" href="./project-pages/project-template.html">
-              <span class="button-text">Read More</span>
+            <a class="button" href="./project-pages/gameOfLife.html">
+              <span class="button-text">Lire Plus</span>
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
           </div>
+
           <div class="project-card">
-            <img src="./assets/images/code.jpeg" class="project-image">
+            <img src="./assets/images/workworkcar.png" class="project-image">
             <div class="project-card-text-container">
-              <div class="subheader-text project-title">Project Name</div>
-              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+              <div class="subheader-text project-title">Site vitrine de covoiturage</div>
+              <div class="body-text project-card-text">Un site vitrine présentant un service de covoiturage pour une entreprise informatique</div>
             </div>
-            <a class="button" href="./project-pages/project-template.html">
-              <span class="button-text">Read More</span>
+            <a class="button" href="./project-pages/WorkWorkCar.html">
+              <span class="button-text">Lire Plus</span>
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
           </div>
+
           <div class="project-card">
-            <img src="./assets/images/sketchbook.jpeg" class="project-image">
+            <img src="./assets/images/jeuLudoPedagogique.png" class="project-image">
             <div class="project-card-text-container">
-              <div class="subheader-text project-title">Super Long Project Name That Should be Hidden</div>
-              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+              <div class="subheader-text project-title">Jeu Ludo-Pédagogique</div>
+              <div class="body-text project-card-text">Un jeu dans lequel apprendre est la clé, créer pour être joué par les jeunes</div>
             </div>
-            <a class="button" href="./project-pages/project-template.html">
-              <span class="button-text">Read More</span>
+            <a class="button" href="./project-pages/jeuLudoPedagogique.html">
+              <span class="button-text">Lire Plus</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          
+          <div class="project-card">
+            <img src="./assets/images/jeuxnuls.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Série de petits jeux</div>
+              <div class="body-text project-card-text">Compilation de jeux tel que le Démineur, le Puissance 4, le Jeu de la Vie, etc...</div>
+            </div>
+            <a class="button" href="./project-pages/jeuxNuls.html">
+              <span class="button-text">Lire Plus</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+
+          <div class="project-card">
+            <img src="./assets/images/jeuEquipe.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Création en équipe d'un jeu</div>
+              <div class="body-text project-card-text">Création d'un jeu sur Terminal de A à Z en équipe sous la méthode Agile</div>
+            </div>
+            <a class="button" href="./project-pages/jeuEquipeAgile.html">
+              <span class="button-text">Lire Plus</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+
+          <div class="project-card">
+            <img src="./assets/images/bambi.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Jeu Chasse au Monstre</div>
+              <div class="body-text project-card-text">Création d'un jeu de labyrinthe et de chasse de monstre en équipe de 5</div>
+            </div>
+            <a class="button" href="./project-pages/ChasseAuMonstre.html">
+              <span class="button-text">Lire Plus</span>
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
           </div>
