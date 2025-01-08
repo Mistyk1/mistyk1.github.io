@@ -95,7 +95,7 @@ body {
     /* Project Cards */
 
     .project-card {
-      max-width: calc((100% - 32px) / 3);
+      width: calc((100% - 32px) / 3);
       display: flex;
       flex-direction: column;
       gap: 34px;
